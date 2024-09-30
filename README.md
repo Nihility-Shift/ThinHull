@@ -7,7 +7,7 @@
 Version 0.0.2  
 For Game Version 0.27.0  
 Developed by 18107  
-Requires:  BepInEx-BepInExPack-5.4.2100, VoidCrewModdingTeam-VoidManager-1.2.2
+Requires:  BepInEx-BepInExPack-5.4.2100, VoidCrewModdingTeam-VoidManager-1.2.2, VoidCrewModdingTeam-Void_Fixes-1.0.1
 
 
 ---------------------
