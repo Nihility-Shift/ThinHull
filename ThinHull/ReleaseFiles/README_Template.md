@@ -17,7 +17,7 @@ Requires: [Dependencies]
 - Major breaches leak twice as fast as minor breaches
 - Air is removed from the room closest to the breach
 - The temperature decreases as the pressure decreases (similar to having an airlock open)
-- Requires `AtmosphereFix`
+- Requires `VoidFixes`
 
 ### 🎮 Client Usage
 

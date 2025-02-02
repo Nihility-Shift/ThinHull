@@ -40,6 +40,7 @@ namespace ThinHull
             foreach (HullBreach breach in nearestRoom.Keys)
             {
                 if (breach.State.condition == BreachCondition.Intact) continue;
+                if (breach.State.condition == BreachCondition.Minor && !Configs.minorLeak.Value) continue;
 
                 Room room = nearestRoom[breach];
                 AtmosphereValues values = __instance.Atmospheres.GetElementAt(room.RoomIndex);

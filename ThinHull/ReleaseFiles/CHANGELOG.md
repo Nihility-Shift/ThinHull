@@ -1,3 +1,6 @@
+## 0.0.3
+- Added configuration option for only major breaches to leak.
+
 ## 0.0.2
 - Updated for Void Crew 0.27.0 (Update 5).
 

@@ -15,6 +15,7 @@ namespace ThinHull
         private void Awake()
         {
             Log = Logger;
+            Configs.Load(this);
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), MyPluginInfo.PLUGIN_GUID);
             Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
         }
